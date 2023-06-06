@@ -1,0 +1,5 @@
+name: Custom Autocomplete Form
+type: module
+description: An example of custom form with autocomplete field
+package: Custom
+core_version_requirement: ^9.2 || ^10

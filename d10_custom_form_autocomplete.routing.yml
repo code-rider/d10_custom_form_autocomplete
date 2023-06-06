@@ -1,0 +1,18 @@
+d10_custom_form_autocomplete.custom_autocomplete_engine:
+  path: '/custom-autocomplete-engine'
+  defaults:
+    _controller: '\Drupal\d10_custom_form_autocomplete\Controller\FormAutoComplete::custom_engine'
+  requirements:
+      _role: 'authenticated'
+  options:
+       no_cache: TRUE
+
+d10_custom_form_autocomplete.my_form_display:
+  path: '/custom-autocomplete-form-display'
+  defaults:
+    _controller: '\Drupal\d10_custom_form_autocomplete\Controller\CustomPageDisplay::autocomplete_display'
+  requirements:
+      _role: 'authenticated'
+  options:
+       no_cache: TRUE
+
