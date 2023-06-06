@@ -20,3 +20,7 @@ $form['field_one'] = [
   ]
 ];
 ```
+After installation of the module you can view this form at this url
+```
+youe-site/custom-autocomplete-form-display
+```
