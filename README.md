@@ -1,7 +1,7 @@
-# Drupal 10 Custom Autocomplete Form
+# Drupal 10 Custom Auto-complete Form
 A module with a custom form with an example of Drupal 10 autocomplete form element
 ### Instructions
-In this examle of module we are assuming we have a Taxonomy vocabulary created with machine name distributions
+In this example of a module, we are assuming we have a Taxonomy vocabulary created with machine name distributions
  change this name as per your need in FormAutoComplete.php and MyCustomAutocompleteForm.php
 ### Sample
 ```
@@ -20,7 +20,7 @@ $form['field_one'] = [
   ]
 ];
 ```
-After installation of the module you can view this form at this url
+After installation of the module, you can view this form at this URL
 ```
 youe-site/custom-autocomplete-form-display
 ```
